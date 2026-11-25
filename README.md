@@ -85,6 +85,18 @@ Evaluated on 6,000 physical sensor samples (80/20 train/test split, stratified):
 | **Batch Inference (50 items)** | 48.0 ms | 0.96 ms | 1,041 items/sec |
 | **Batch Inference (250 items)** | **76.5 ms** | **0.31 ms** | **3,270 items/sec** |
 
+### 📈 Visual Evaluation & Diagnostic Plots
+
+| ROC & Precision-Recall Curves | Confusion Matrix (Test Set) |
+| :---: | :---: |
+| ![ROC and PR Curves](reports/figures/roc_pr_curves.png) | ![Confusion Matrix](reports/figures/confusion_matrix.png) |
+
+| Water Volume Actual vs Predicted ($R^2=0.971$) | Global Feature Importance (Top 10) |
+| :---: | :---: |
+| ![Regression Actual vs Predicted](reports/figures/regression_performance.png) | ![Feature Importance](reports/figures/feature_importance.png) |
+
+> 📄 Detailed statistical breakdown available in the [Model Evaluation Report](reports/EVALUATION_REPORT.md).
+
 ---
 
 ## 🔬 Agronomic & Mathematical Foundations

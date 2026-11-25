@@ -9,3 +9,4 @@ plotly>=5.24.0
 joblib>=1.4.0
 pytest>=8.0.0
 httpx>=0.27.0
+matplotlib>=3.8.0
